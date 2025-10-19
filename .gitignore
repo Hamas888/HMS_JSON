@@ -1,0 +1,7 @@
+test/
+dist/
+build/
+.vscode/
+CMakeFiles/
+components/
+CMakeCache.text

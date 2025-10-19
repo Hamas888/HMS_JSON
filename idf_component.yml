@@ -1,0 +1,26 @@
+name: "HMS_JSON"
+version: "1.0.0"
+
+description: >
+  Cross-platform JSON serialization and deserialization library for embedded systems.
+  Provides JSON serialization and deserialization.
+  Works on ESP-IDF, STM32 HAL, Arduino, and Linux/Windows/MacOS.
+
+url: "https://github.com/Hamas888/HMS_JSON"
+repository: "https://github.com/Hamas888/HMS_JSON.git"
+issues: "https://github.com/Hamas888/HMS_JSON/issues"
+
+maintainers:
+  - "Hamas Saeed <hamasaeed888@gmail.com>"
+
+license: "MIT"
+
+dependencies:
+  idf: ">=5.0"
+
+tags:
+  - "json"
+  - "serialization"
+  - "deserialization"
+  - "embedded"
+  - "cross-platform"
