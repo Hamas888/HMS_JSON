@@ -38,7 +38,7 @@ namespace HMS {
     #if HMS_JSON_EXCEPTIONS_ENABLED
         inline JsonValue deserialize(const std::string& s) { return JsonDeserializer::deserialize(s); }
     #else
-        inline JsonValue parse(const std::string& s, ParseError& err) { return JsonDeserializer::deserialize(s, err); }
+        inline JsonValue deserialize(const std::string& s, ParseError& err) { return JsonDeserializer::deserialize(s, err); }
     #endif
 
     inline std::string serialize(const JsonValue& v, bool pretty=false, int indent=2) {
